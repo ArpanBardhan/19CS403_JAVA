@@ -1,4 +1,4 @@
-# Ex.No:10(A)         JAVA COLLECTION FRAMEWORK –ARRAY LIST
+# Ex.No:10(A)  JAVA COLLECTION FRAMEWORK –ARRAY LIST
 ## AIM:
  To Create a Java Program to store n numbers (add elements of type Integer) and then display the n numbers using array List.
 
@@ -17,25 +17,37 @@
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a ARRAY LIST using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: ARPAN BARDHAN
+RegisterNumber: 212222040013
+
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.*;
 
-
-
-
-
-
+public class Main { 
+  public static void main(String[] args) { 
+    ArrayList<Integer> myNumbers = new ArrayList<Integer>();
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    for(int i=0;i<n;i++)
+    {
+    myNumbers.add(sc.nextInt());
+    }
+    for (int i : myNumbers) {
+      System.out.println(i);
+    }
+  } 
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/e6dfe967-7697-415f-bad6-b16b8fc4ca02)
 
 
 ## RESULT:
 TThus the Java Program to store n numbers (add elements of type Integer) and then display the n numbers using array List was executed successfully.
-
