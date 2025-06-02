@@ -18,27 +18,38 @@ a)	Create an instance of the 'Area' class called 'rectangle'
 b)	Call the 'calculateArea' method on the 'rectangle' object
 
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: ARPAN BARDHAN
+RegisterNumber: 212222040013
 */
 ```
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+import java.util.*;
+public class Area 
+{
+       public void calculateArea() 
+       {
+        float length = 10;
+        float width = 20;
+        float area = length * width;
+        System.out.println("Area of Rectangle is " + area);
+       }
+       public static void main(String[] args) 
+       {
+       Area obj=new Area();
+       obj.calculateArea();
+       }
+}
+```
 
 ## OUTPUT:
-
+![image](https://github.com/user-attachments/assets/61a78341-fb24-44ce-b9db-3ab0bf5d79b0)
 
 
 ## RESULT:
