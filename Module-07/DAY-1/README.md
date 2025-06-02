@@ -1,4 +1,4 @@
-# Ex.No:7(A)           EXCEPTION HANDLING-RUN TIME EXCEPTION
+# Ex.No:7(A) EXCEPTION HANDLING-RUN TIME EXCEPTION
 ## AIM:
   To Develop a Java Program for handling Arithmetic Exception (division by zero exception) using Exception Handling Mechanism.
 
@@ -22,15 +22,35 @@
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Exception Handling-Run Time Exception using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: ARPAN BARDHAN
+RegisterNumber: 212222040013
+
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.Scanner;
 
+public class HelloWorld {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+           try
+           {
+               int a=sc.nextInt();
+             int b=sc.nextInt();
+             int c=a/b;
+             System.out.println("Result: " +c); 
+           }
+               catch(ArithmeticException e)  
+        {  
+            System.out.println("Arithmetic Exception: Number should not divide by zero");  
+        }  
+    }
+}
+```
 
 
 
@@ -39,6 +59,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/3c04f542-503a-4072-9ea0-33b49137efd5)
 
 
 ## RESULT:
