@@ -13,30 +13,39 @@ a.	If true, print "Given number is Zero"
 b.	If false, print 'num' followed by " is Non-Zero"
 6.	End
 
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: ARPAN BARDHAN
+RegisterNumber: 212222040013
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.Scanner;
 
+public class Demo
+{
+    public static void main(String[] args)
+    {
+       Scanner sc=new Scanner(System.in);
+       int num=sc.nextInt();
+        if(num==0)
+        System.out.println("Given number is Zero");
+        else
+        {
+        	 System.out.println(num+ " is Non-Zero");
+        }
+    }
+}
 
-
-
-
+```
 
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/926f3635-338e-48fc-95db-d49781ad1352)
 
 ## RESULT:
 Thus, the Java program to check given number is zero or not was created successfully.
