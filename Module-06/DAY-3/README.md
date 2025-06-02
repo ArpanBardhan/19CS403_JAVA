@@ -1,4 +1,5 @@
-# Ex.No:6(C)             HIERARCHICAL INHERITANCE 
+
+# Ex.No:6(C)  HIERARCHICAL INHERITANCE 
 
 ## AIM:
   To Develop a Java program to perform Hierarchical Inheritance for below scenario Parent have method " display" to display "This is Parent Class". Child1 have method "print" to display "This is Child1 Class" Child1 have method "print" to display "Child2 Class". In Main create object for both child1 and child2 and access its member function.
@@ -22,23 +23,56 @@
 
 ## PROGRAM:
  ```
+
 /*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: ARPAN BARDHAN
+RegisterNumber:  212222040013
 */
+
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+class Parent 
+{
+    void display()
+    {
+        System.out.println("This is Parent Class");
+    }
+}
+class  Child1
+{
+    void print()
+    {
+        System.out.println("This is Child1 Class");
+    }
+}
+class Child2
+{
+    void print()
+    {
+        System.out.println("This is Child2 Class");
+    }
+}
+public class main
+{
+    public static void main(String args[])
+    {
+        Parent p=new Parent();
+        p.display();
+        Child1 c1=new Child1();
+        c1.print();
+        p.display();
+        Child2 c2=new Child2();
+        c2.print();
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/885be892-df60-4e55-a4bc-64de71c630de)
 
 
 ## RESULT:
