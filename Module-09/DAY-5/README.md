@@ -18,25 +18,45 @@ j.	End the program.
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a STRING WRITER
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: ARPAN BARDHAN
+RegisterNumber: 212222040013
+
 ```
 
 ## Sourcecode.java:
+```java
+import java.io.StringWriter;
 
+public class Main {
+  public static void main(String[] args) {
 
+    String data = "String Writer";
 
+    try {
+      // Create a StringWriter with default string buffer capacity
+      StringWriter output = new StringWriter();
 
+      // Writes data to the string buffer
+      output.write(data);
 
+      // Prints the string writer
+      System.out.println("Data in the StringWriter: " + output);
 
+      output.close();
+    }
+
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/0a7e1237-c0a4-4fe7-9626-9722ba0c6431)
 
 ## RESULT:
 Thus, implementation of  a Java program was successfully reads a string from the user and uses StringWriter to write and print the string to the output screen.
-
