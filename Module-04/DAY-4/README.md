@@ -27,23 +27,56 @@
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a final & Static using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: ARPAN BARDHAN
+RegisterNumber: 212222040013
+
 ```
 
 ## Sourcecode.java:
 
 
+```java
+class Name {
+    String Fname;
+    String Mname;
+    String Lname;
 
+    void dispName(String fn, String mn, String ln) {
+        Fname = fn;
+        Mname = mn;
+        Lname = ln;
+        System.out.println(Fname + " " + Mname + " " + Lname);
+    }
+}
+
+class Employee {
+    int Emp_Id;
+    Name obj = new Name();
+
+    void dispName(int id, String fn, String mn, String ln) {
+        Emp_Id = id;
+        System.out.println(Emp_Id);
+        obj.dispName(fn, mn, ln);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Employee e = new Employee();
+        e.dispName(101, "B", "Leo", "John");
+    }
+}
+
+```
 
 
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/50a4767a-8bf6-4110-a456-f521d5e2f271)
 
 
 ## RESULT:
