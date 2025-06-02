@@ -1,4 +1,4 @@
-# Ex.No:8(A)           IO-FILE STREAM
+# Ex.No:8(A) IO-FILE STREAM
 ## AIM:
 To implement a Java Program to write a String in a file "testout.txt" using FileOutputStream
 
@@ -13,25 +13,27 @@ To implement a Java Program to write a String in a file "testout.txt" using File
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a IO File Stream using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: ARPAN BARDHAN
+RegisterNumber: 212222040013
+
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+   
+FileOutputStream fout=new FileOutputStream("testout.txt");    
+String s="HI EVERYBODY...";    
+byte b[]=s.getBytes();//converting string into byte array    
+fout.write(b);    
+fout.close();    
+System.out.println("Successfully Completed");
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/356bba2f-e08e-48f6-b4bf-1ff5c7349095)
 
 ## RESULT:
 Thus the implementation of a Java Program to write a String in a file "testout.txt" using FileOutputStream was executed and verified successfully
-
