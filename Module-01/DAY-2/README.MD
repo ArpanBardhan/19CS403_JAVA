@@ -4,26 +4,43 @@
 To Define a program to find out if he/she is eligible to retire. A person is eligible to retire if his/her age is greater than or equal to 58 by using instance method and local variable. 
 ## ALGORITHM :
 1.Start the program.
+
 2.Import the necessary package java.util.
+
 3.Define a class named Age.
+
 4.Define an instance method named calculateAge.
+
 5.Inside calculateAge, create a Scanner object named scanner to read user input.
+
 6.Read an integer age from the user using nextInt method of scanner.
+
 7.Close the scanner object.
+
 8.Check if the age is greater than or equal to 58.
+
  a) If true, print "Eligible to Retire" using System.out.println.
+ 
  b) If false, print "Not Eligible to Retire" using System.out.println.
+ 
 9.Define the main method.
+
 10.Inside main, create an object of the Age class named person.
+
 11.Call the calculateAge() method using the person object.
+
 12.End the program.
+
+
+
+
 
 ## PROGRAM:
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: LAKSHMIPRIYA D
-RegisterNumber:  212222040085
+Developed by: ARPAN BARDHAN
+RegisterNumber:  212222040013
 */
 ```
 
