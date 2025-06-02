@@ -1,4 +1,4 @@
-# Ex.No:8(C)             FILTER READER
+# Ex.No:8(C) FILTER READER
 ## AIM:
  To create a java Program to read the content from the file by using Filter Reader 
 
@@ -15,29 +15,36 @@
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a Filter Reader using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: ARPAN BARDHAN
+RegisterNumber:  212222040013
+
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+class CustomFilterReader1 extends FilterReader {  
+    CustomFilterReader1(Reader in) {  
+        super(in);  
+    }  
+    public int read() throws IOException {  
+        int x = super.read();  
+        if ((char) x == ' ')  
+            return ((int) '*');  
+        else  
+            return x;  
+    }  
+}  
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/08324dae-ac5a-4cad-b952-f50ede8c7872)
 
 
 ## RESULT:
 Thus the java Program to read the content from the file by using Filter Reader  was executed and verified successfully.
-
-
 
 
 
