@@ -1,4 +1,4 @@
-# Ex.No:11(A)         JAVA TREESET
+# Ex.No:11(A) JAVA TREESET
 ## AIM:
  To develop a Java program to iterate through all elements in a tree set.
 
@@ -16,25 +16,36 @@
 
 ## PROGRAM:
  ```
-/*
+
 Program to implement a JAVA TREESET using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by:  ARPAN BARDHAN
+RegisterNumber: 212222040013
+
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+import java.util.*;
+public class Exercise2 {
+  public static void main(String[] args) {
+  Scanner sc=new Scanner(System.in);
+  int size=sc.nextInt();
+  TreeSet<Integer> tree_set = new TreeSet<Integer>();
+  for(int i=0;i<size;i++)
+  {
+  tree_set.add(sc.nextInt());
+  }
+ 
+  for (Integer element : tree_set) {
+    System.out.println(element);
+    }
+ }
+}
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/4980351e-5859-4b45-b8f8-c0d8f11c8fc8)
 
 ## RESULT:
 Thus the java program to iterate through all elements in a tree set was executed successfully.
-
