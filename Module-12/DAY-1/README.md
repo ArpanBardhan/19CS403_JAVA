@@ -1,3 +1,4 @@
+
 # Ex.No:12(A)         JAVA TREE MAP
 ## AIM:
  To implement a Java program to associate the specified value with the specified key in a Tree Map.
@@ -19,27 +20,43 @@
 7.	End
 
 
-
 ## PROGRAM:
  ```
-/*
+
 Program to implement a JAVA TREE MAP using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: ARPAN BARDHAN
+RegisterNumber: 212222040013
+
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+import java.util.*;  
+public class ss {  
+  public static void main(String args[]){  
+  
+   TreeMap<Integer,String> tree_map=new TreeMap<Integer,String>();      
+  Scanner sc=new Scanner(System.in);
+   int size=sc.nextInt();
+   for(int i=0;i<size;i++)
+   {
+      Integer n1 = sc.nextInt();
+      String s1= sc.next();
+       
+   	  tree_map.put(n1,s1);  
+   }
+	 
+   for (Map.Entry<Integer,String> entry : tree_map.entrySet())
+   {
+    System.out.println(entry.getKey() + "=>" + entry.getValue());
+   }
+ }  
+}
+```
 
 ## OUTPUT:
 
-
+![image](https://github.com/user-attachments/assets/54473bd3-1a9d-4cb4-aa69-9c18e06d50ed)
 
 ## RESULT:
 Thus the Java program to associate the specified value with the specified key in a Tree Map was executed successfully.
